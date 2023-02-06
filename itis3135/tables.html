@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tables</title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link href="styles/tables.css" rel="stylesheet">
+    <link href="styles/default.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>AJ Bronz's Atheist Baboon</h1>
+    </header>
+    <nav>
+        <a href="https://webpages.uncc.edu/abronz/">Home</a>
+        ||
+        <a href="https://webpages.uncc.edu/abronz/itis3135/index.html">Index</a>
+        ||
+        <a href="https://webpages.uncc.edu/abronz/itis3135/introduction.html">Introduction</a>
+        ||
+        <a href="https://webpages.uncc.edu/abronz/itis3135/tables.html">Tables</a>
+    </nav>
+    <main>
+        <h2>Activity #2 - HTML Tables</h2>
+        <h3>My Tabular Data</h3>
+        <ol>
+            <li>Alec Bronz</li>
+            <li>Shigeru Miyamoto</li>
+            <li>Ash Ketchum</li>
+            <li>Vegeta</li>
+            <li>Issei Hyoudou</li>
+            <li>Misty Bronz</li>
+            <li>Super Mario</li>
+        </ol>
+        <h3>Employee Data in Simple Table</h3>
+        <figure>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Years of Service</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alec Bronz</td>
+                        <td>abronz@uncc.edu</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Shigeru Miyamoto</td>
+                        <td>miyamotosan@nintendo.co</td>
+                        <td>46</td>
+                    </tr>
+                    <tr>
+                        <td>Ash Ketchum</td>
+                        <td>pokemonmaster@kanto.com</td>
+                        <td>26</td>
+                    </tr>
+                    <tr>
+                        <td>Vegeta</td>
+                        <td>saiyanprince@earth.com</td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <td>Issei Hyoudou</td>
+                        <td>gigachad@harem.com</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Misty Bronz</td>
+                        <td>mistybronz@gmail.com</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Super Mario</td>
+                        <td>jumpman@mushroom.kingdom</td>
+                        <td>42</td>
+                    </tr>
+                </tbody>
+            </table>
+            <figcaption>Employee Information</figcaption>
+        </figure>
+        <h3>Employee Data in Complex Table</h3>
+        <figure>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Years of Service</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">CEO</td>
+                        <td>Alec Bronz</td>
+                        <td>abronz@uncc.edu</td>
+                        <td>1</td>
+                        <td class="right">$135,000</td>
+                    </tr>
+                    <tr>
+                        <td>Shigeru Miyamoto</td>
+                        <td>miyamotosan@nintendo.co</td>
+                        <td>46</td>
+                        <td class="right">$135,000</td>
+                    </tr>
+                    <tr>
+                        <td>Champion</td>
+                        <td>Ash Ketchum</td>
+                        <td>pokemonmaster@kanto.com</td>
+                        <td>26</td>
+                        <td class="right">$135,000</td>
+                    </tr>
+                    <tr>
+                        <td>Prince</td>
+                        <td>Vegeta</td>
+                        <td>saiyanprince@earth.com</td>
+                        <td>35</td>
+                        <td class="right">$135,000</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Living Legends</td>
+                        <td>Issei Hyoudou</td>
+                        <td>gigachad@harem.com</td>
+                        <td>15</td>
+                        <td class="right">$135,000</td>
+                    </tr>
+                    <tr>
+                        <td>Misty Bronz</td>
+                        <td>mistybronz@gmail.com</td>
+                        <td>5</td>
+                        <td class="right">$0</td>
+                    </tr>
+                    <tr>
+                        <td>Super Mario</td>
+                        <td>jumpman@mushroom.kingdom</td>
+                        <td>42</td>
+                        <td class="right">$135,000</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Total Years of Service</th>
+                        <th>170</th>
+                        <th class="right">$810,000</th>
+                    </tr>
+                </tbody>
+            </table>
+            <figcaption>Employee Information</figcaption>
+        </figure>
+    </main>
+    <footer>
+        <nav>
+            <p>Site designed by AJ. &copy;2023</p>
+            <a href="https://webpages.charlotte.edu/abronz/">Webspace</a>
+            ||
+            <a href="https://github.com/Unadvanced">Github</a>
+            ||
+            <a href="https://www.freecodecamp.org/AJ_Bronz">FreeCodeCamp</a>
+            ||
+            <a href="https://www.codecademy.com/profiles/AJBronz">Codecademy</a>
+            ||
+            <a href="https://www.linkedin.com/in/alec-bronz-552119265/">LinkedIn</a>
+        </nav>
+        <br>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.charlotte.edu%2Fabronz%2Fitis3135%2Ftables.html">
+            <img src="images/button_validation_html5.png" width="88" height="31" alt="Link to HTML validator">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+        </a>
+    </footer>
+</body>
+
+</html>
