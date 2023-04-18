@@ -1,0 +1,50 @@
+html {
+    border-top: none;
+}
+
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.autoHide {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 32px;
+    overflow: hidden;
+}
+
+.semicircle {
+    width: 24rem;
+    height: 12rem;
+    background-color: #48abe0;
+    border-radius: 0 0 12rem 12rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin-top: none;
+}
+
+hr.rounded {
+    border-top: 3px solid #bbb;
+    border-radius: 2px;
+  }
+
+nav {
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 40%;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    font-weight: bold;
+}

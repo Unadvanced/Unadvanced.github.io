@@ -1,0 +1,109 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.autoHide {
+    display: none;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link { color: #8A716A; }
+
+a:visited { color: #8A716A; }
+
+a:hover { color: #197BBD; }
+
+body {
+    background-color: #C2B8B2;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #000080;
+}
+
+p {
+    color: black;
+    font-size: 1.2rem;
+}
+
+nav {
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 40%;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #DC143C;
+    font-weight: bold;
+}
+
+footer {
+    display: block;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h4 {
+    display: block;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.chart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 200px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+}
+
+.chart-bar {
+    flex-grow: 1;
+    margin: 0 10px;
+    background-color: #4d4dff;
+    transition: height 0.5s ease-in-out;
+}
+
+.chart-bar:hover {
+    background-color: #6666ff;
+}
+
+.chart-label {
+    margin-top: 5px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figcaption {
+    color: #000080;
+    font-size: 15px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link href="styles/form.css" rel="stylesheet">
+    <link href="styles/default.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="scripts/default.js"></script>
+    <title>ITIS 3135 | Alec Bronz's Atheist Baboon | Form</title>
+</head>
+
+<body>
+    <script src="scripts/siteLinks.js"></script>
+    <main>
+        <h2>HTML Form</h2>
+        <div class="formDivider">
+        <form action="#">
+            <fieldset class="topFieldset">
+                <Legend>Employee Name:</Legend>
+                <input size="20" type="text" name="name" placeholder="Name" required>
+            </fieldset>
+            <fieldset class="otherFieldset">
+                <Legend>Employee Phone:</Legend>
+                <input size="20" type="text" name="phone" placeholder="Phone #" required>
+            </fieldset>
+            <fieldset class="otherFieldset">
+                <Legend>Employee Email:</Legend>
+                <input size="20" type="text" name="email" placeholder="Email" required>
+            </fieldset>
+            <fieldset class="otherFieldset">
+                <Legend>Preferred Work Days: <small><em>(4 day work week)</em></small></Legend>
+                <input id="Monday" type="checkbox" name="days" value="Monday" checked>
+                <label for="Monday">Monday</label>
+                <input id="Tuesday" type="checkbox" name="days" value="Tuesday">
+                <label for="Tuesday">Tuesday</label>
+                <input id="Wednesday" type="checkbox" name="days" value="Wednesday">
+                <label for="Wednesday">Wednesday</label>
+                <input id="Thursday" type="checkbox" name="days" value="Thursday">
+                <label for="Thursday">Thursday</label>
+                <input id="Friday" type="checkbox" name="days" value="Friday">
+                <label for="Friday">Friday</label>
+            </fieldset>
+            <fieldset class="otherFieldset">
+                <Legend>Favorite Game Genre:</Legend>
+                <label><input id="Action" type="radio" name="genre" value="action" checked>Action</label>
+                <label><input id="Action-adventure" type="radio" name="genre" value="action-adventure">Action-adventure</label>
+                <label><input id="Adventuer" type="radio" name="genre" value="adventure">Adventure</label>
+                <label><input id="Puzzle" type="radio" name="genre" value="puzzle">Puzzle</label>
+                <label><input id="Role-playing" type="radio" name="genre" value="role-playing">Role-playing</label>
+                <label><input id="Simulation" type="radio" name="genre" value="simulation">Simulation</label>
+                <label><input id="Strategy" type="radio" name="genre" value="strategy">Strategy</label>
+                <label><input id="Sports" type="radio" name="genre" value="sports">Sports</label>
+                <label><input id="MMO" type="radio" name="genre" value="MMO">MMO</label>
+            </fieldset>
+            <fieldset class="otherFieldset">
+                <label for="console">What game console have you spent most time playing on?</label>
+                <select id="console" name="console">
+                    <option value="NES">NES</option>
+                    <option value="SNES">SNES</option>
+                    <option value="N64">N64</option>
+                    <option value="Gamecube">Gamecube</option>
+                    <option value="Wii">Wii</option>
+                    <option value="Wii U">Wii U</option>
+                    <option value="Switch">Switch</option>
+                    <option value="PS1">PS1</option>
+                    <option value="PS2">PS2</option>
+                    <option value="PS3">PS3</option>
+                    <option value="PS4">PS4</option>
+                    <option value="PS5">PS5</option>
+                    <option value="Xbox">Xbox</option>
+                    <option value="Xbox 360">Xbox 360</option>
+                    <option value="Xbox One">Xbox One</option>
+                    <option value="Xbox Series X/S">Xbox Series X/S</option>
+                </select>
+            </fieldset>
+            <div class="formButton">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            </div>
+        </form>
+        </div>
+    </main>
+    <script src="scripts/footerLinks.js"></script>
+</body>
+
+</html>
